@@ -1,0 +1,10 @@
+n = input("Enter Name of the Student : ")
+m = float(input("Enter marks : "))
+s = float(input("Enter marks : "))
+ss = float(input("Enter marks : "))
+h = float(input("Enter marks : "))
+e = float(input("Enter marks : "))
+t = m + s + ss + h + e
+per = int(t / 5)
+print (" Total marks of ",n, " is ",t)
+print(" Percentage scored : ",per)
