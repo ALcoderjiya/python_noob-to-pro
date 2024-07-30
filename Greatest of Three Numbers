@@ -1,0 +1,25 @@
+a = int(input("Enter first Number : "))
+b = int(input("Enter Second Numbrer : "))
+c = int(input("Enter Third Number : "))
+if a>b and a>c:
+    print("Greatest Number is ",a)
+if b>a and b>c:
+    print("Greatest Number is ",b)
+else:
+    print("Greatest Number is ",c)
+'''
+#another method 
+a = int(input("Enter first Number : "))
+b = int(input("Enter Second Numbrer : "))
+c = int(input("Enter Third Number : "))
+if a>b:
+    if a>c:
+        print("Greatest Number is ",a)
+    else:
+        print("Greatest Number is ",c)
+else:
+    if b>c:
+        print("Greatest Number is ",b)
+    else:
+        print("Greatest Number is ",c)
+'''
