@@ -1,0 +1,9 @@
+a = int(input("Enter  Side : "))
+b = int(input("Enter Side : "))
+c = int(input("Enter Side : "))
+if a==b and a==c:
+    print("It's an Equilateral Triangle")
+elif a==b or b==c:
+    print("It's an Isosceles Triangle")
+else:
+    print("It's a scalene Triangle")
