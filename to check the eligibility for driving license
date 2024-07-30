@@ -1,0 +1,9 @@
+age  = int(input("Enter Age : "))
+if age >= 18:
+    marks = int(input("Enter Marks : "))
+    if marks >= 50:
+        print("You are eligible for Driving License ")
+    else:
+        print("Work on Your Knowledge about Traffic Rules")
+else:
+    print("You need to be 18 to get Driving License")
